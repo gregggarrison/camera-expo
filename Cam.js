@@ -50,7 +50,7 @@ export default class Cam extends Component {
             apiKey: '6d4f7bf7aac84bfb852ac10d0f5e892e'
         });
 
-        app.models.predict("bd367be194cf45149e75f01d59f77ba7", { base64: imageData })
+        app.models.predict("", { base64: imageData })
             .then(console.log)
         // .then((response) => this.displayAnswer(response.outputs[0].data.concepts[0].name)
         //     .catch((err) => alert(err))
